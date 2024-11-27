@@ -1,5 +1,5 @@
 service : {
     "greet": (text) -> (text) query;
-    "save_msg" : (text) -> ();
-    "get_msg" : () -> (text);
+    "save_msg": (text) -> ();
+    "get_chat": () -> (vec text) query;
 }
